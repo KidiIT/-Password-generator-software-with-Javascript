@@ -1,0 +1,2 @@
+#  Password generator software with Javascript
+ The creativity of this program was build for a great purpose,which is to help users who find it hard to create a strong password that'll be unbreakable by any type cyber attackers and closest enemy or friend.also, it's very useful in helping out technology illierate to create a strong password for there personal use too with the help of the passowrd validation. THANKS YA'LL IN ADVANCED FOR TESTING  AND REVIEWING HOW MY PASSWORD GENERATOR SOFTWARE WORKS.
