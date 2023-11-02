@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generator software</title>
+    <style>
+       span[data-err]{
+          color: red;
+        }
+        input{
+          padding: .5rem .2rem .5rem .2rem;
+          border-radius: 15px ;
+          background-color: black;
+          margin: 20px 0;
+          color:white;
+        }
+        button{  
+        background-color: green;
+        font-size: 19px;
+        margin: 20px 0;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 20px;
+        color: whitesmoke;
+        box-shadow: 1px 2px 2px;
+        }  
+      body{
+      color: white;
+      font-size: 19px;
+      font-family: sans-serif;
+
+
+      }
+      form{
+        background-color:black;
+        padding: 50px;
+        align-items: center;
+        border-radius: 50px 50px;
+
+
+
+      }
+      .mad{
+      background-color: rgb(48, 48, 48);
+      padding: 50px;
+      border-radius: 60px 60px;
+      align-items: center;
+
+    }
+    .mad{
+      box-shadow: 2px 2px 4px 2px rgb(134, 134, 134);
+    }
+    form{
+      display: flex;
+      height: 100vh;
+
+
+    }
+
+              
+
+    </style>
+</head>
+<body>
+    <form id="password_form">
+       <center>
+        <div style="border:1px solid black; height:420px; width:100%;" class="mad">
+        <h1 id="main">PASSWORD GENERATOR SOFTWARE</h1>
+      <p>
+        <label for="password">Enter Password</label>
+        <input type="text" id="password"  name="password">
+        <span class="err" data-err="passwordErr"></span>
+      </p>
+      <p>
+        <label for="confirm_password">Confirm Password</label>
+        <input type="text" id="confirm_password" name="confirm_password">
+        <span class="err" data-err="confirm_passwordErr"></span><br>
+
+        <button>submit</button>
+     </p>
+      </center>
+    </form>
+    <script src="text.js"></script>
+</body>
+</html>
